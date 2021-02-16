@@ -148,7 +148,7 @@ public class ClassUtil
      */
     public static void checkVersionNumbers(int internalClassVersion) throws UnsupportedOperationException
     {
-        if (internalClassVersion < ClassConstants.CLASS_VERSION_1_0 ||
+        /*if (internalClassVersion < ClassConstants.CLASS_VERSION_1_0 ||
             internalClassVersion > ClassConstants.CLASS_VERSION_13)
         {
             throw new UnsupportedOperationException("Unsupported version number ["+
@@ -157,7 +157,7 @@ public class ClassUtil
                                                     ClassConstants.CLASS_VERSION_13_MAJOR+"."+
                                                     ClassConstants.CLASS_VERSION_13_MINOR+", Java "+
                                                     JavaConstants.CLASS_VERSION_13+")");
-        }
+        }*/
     }
 
 
